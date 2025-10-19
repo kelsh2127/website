@@ -1,0 +1,491 @@
+body{
+    height: 1000vh;
+}
+#count{
+    text-align: center;
+    font-size: 10em;
+    font-family:  Helvetica;
+       margin-bottom: 0%;
+    }
+    #btnc{
+        text-align: center;
+    }
+    .btn{
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        color: white;
+        background-color: hsl(214, 100%, 74%);
+        border-radius: 5PX;
+        cursor: pointer;
+        transition: background-color 0.25s;
+    }
+    .btn:hover{
+        background-color:hsl(214, 100%, 54%);
+    }
+    #myd{
+        text-align: center;
+        font-size: 7em;
+       padding: 10px 25px;
+       border-radius: 7px;
+   }
+   #mylabel{
+       font-size: 30px;
+       margin-top: 0%;
+   
+   }
+   #myr{
+    font-size: 0.5em;
+    margin-bottom: 0%;
+   }
+   body{
+    height: 500vh;
+   }
+    h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0ef;
+}
+/*
+form{
+    background-color:#473b3b;
+    color: white;
+    text-align: center;
+    max-width: 350px ;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px cyan,
+    0px 0px 100px rgb(230, 240, 240),0px 0px 200px rgb(93, 3, 3)
+}*/
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgba(0, 0, 0, 0.495);
+     border-radius: 4px; 
+     margin-bottom: 15px;   
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#but{
+    margin-top: 15px;
+    background-color: rgb(225, 247, 249);
+    font-size: 1em;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#but:hover{
+    background-color: rgba(235, 183, 105, 0.879);
+}
+#resulet{
+    font-size: 1.75em;
+    font-weight: bold;
+}
+#clock-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(image/wall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+     color: white;
+     backdrop-filter:blur(10px);
+     background-color:hsla(0, 0%, 100%, 0.1);
+     width: 100%;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(image/wal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#clook{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+}
+#containerr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 50%);
+}
+#mycontrol{
+     padding: 30px;
+    border-radius: 50px;
+    border: 5px solid;
+    background-color: white;
+}
+#displlay{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%,0%, 0.75%);
+    margin-bottom: 25px;
+}
+#myih{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 25%);
+}
+#controls button{
+    font-size:1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: hsl(115, 100%, 40%);
+}
+#startBtn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+#stopBtn{
+    background-color: hsl(10, 90%, 50%);
+}
+#startBtn:hover{
+        background-color: hsl(10, 90%, 40%);
+}
+#resetBtn{
+    background-color: hsl(205, 90%, 60%);
+}
+#startBtn:hover{
+    background-color: hsl(205, 90%, 50%);
+}
+boody{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    
+}
+#aplyy{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 25%);
+    align-items: center;
+    color: white;
+}
+#keys{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:3px;
+padding: 25px;
+height: 100vh;
+}
+.ubto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ubto:hover{
+  background-color: hsl(0, 45%, 40%);
+}
+.ubto:active{
+   background-color: hsl(0, 20%, 40%);
+
+}
+ 
+#pbtn{
+      background-color: rgb(145, 112, 89);
+
+}
+#mibtn{
+      background-color: rgb(145, 112, 89);
+
+}
+#mubtn{
+      background-color: rgb(145, 112, 89);
+
+}
+#dibtn{
+       background-color: rgb(145, 112, 89);
+
+}
+#cbtn{
+    background-color: rgb(145, 112, 89);
+}
+#pbtn:hover{
+        background-color: rgba(236, 192, 161, 0.534);
+
+}
+#mibtn:hover{
+        background-color: rgba(245, 210, 185, 0.534);
+
+}
+#mubtn:hover{
+        background-color: rgba(245, 210, 185, 0.534);
+
+}
+#dibtn:hover{
+        background-color: rgba(245, 210, 185, 0.534);
+
+}
+#cbtn:hover{
+        background-color: rgba(245, 210, 185, 0.534);
+
+}
+
+#container{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#busa{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0ef;
+    color: white;
+    font-weight: bold;
+}
+#busa:hover{
+    background-color: rgb(106, 8, 234);
+}
+#busa:active{
+    background-color: rgb(230, 5, 234);
+}
+#ni{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+}
+.box{
+    border: 2px solid black;
+    width: 40%;
+    height: 30vh;
+}
+#apex{
+    border: 3px solid black;
+    width: 30%;
+    font-size: 1.5rem;
+    color: black;
+}
+#kii{
+    border: 3px solid black;
+    width: 30%;
+}
+#ipo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 25%);
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+cursor: pointer;
+transition: backgroundColor 0.5s ease;
+}
+.choices button:hover{
+    background-color: hsl(200, 100%, 75%);
+}
+#playedis,#compdis{
+    font-size: 2.5rem;
+}
+#resdis{
+  font-size: 5rem;
+  margin: 30px 0;  
+}
+.scroll{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.fio,#playk{
+    color: green;
+}
+.lk,#compuk{
+    color: blue;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    display: none;
+}
+img.displaySlide{
+ display: block;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.previous{
+    left: 0;
+
+}
+.next{
+    right: 0;
+}
+@keyframes fade{
+    froml{opacity: -5}
+    to{opacity:1};
+}
+
+#poke{
+    margin-top: 5%;
+}
+.collection{
+   font-family: Arial, Helvetica, sans-serif;  
+   background-color: hsl(0, 0%, 95%);
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20%; 
+}
+.weatherF{
+  margin: 20px;   
+}
+.cityinput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsl(0, 0%, 20%,0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+
+}
+#KBL{
+   padding: 10px 20px;
+   font-weight: bold;
+   font-size: 2rem;
+   background-color: hsl(122, 39%, 50%);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;  
+}
+#KBL:hover{
+   background-color: hsl(122, 39%, 40%);
+}
+.card{
+   background: linear-gradient(180deg,hsl(210,100%,75%),hsl(39,100%,50%));
+   padding: 50px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+   min-width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+
+}
+.cityDis, .tempDis{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+.human{
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.desDis{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.weather{
+    margin: 0;
+    font-size: 7.5rem;
+}
+.errorDis{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%,0.75);
+}
+
+
+
+
+
+
+
+
+
